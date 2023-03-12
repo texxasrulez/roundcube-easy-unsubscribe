@@ -1,10 +1,11 @@
 {
-    "name": "ss88/easy_unsubscribe",
+    "name": "texxasrulez/easy_unsubscribe",
     "type": "roundcube-plugin",
     "description": "Displays a small icon after the subject line when viewing an email, so you can very quickly unsubscribe.",
     "license": "GPL-3.0+",
+	"version": "2.7-dev",
     "keywords": ["unsubscribe","subscription", "newsletter", "mailer"],
-    "homepage": "https://github.com/SS88UK/roundcube-easy-unsubscribe",
+    "homepage": "https://github.com/texxasrulez/roundcube-easy-unsubscribe",
     "repositories": [
         {
             "type": "composer",
