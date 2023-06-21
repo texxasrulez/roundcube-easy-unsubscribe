@@ -31,7 +31,7 @@ class easy_unsubscribe extends rcube_plugin
 			$this->message_headers_done = true;
 
 			$ListUnsubscribe = $p['headers']->others['list-unsubscribe'] ?? null;
-			if ( preg_match_all('/<(.+)>/mU', $ListUnsubscribe, $items, PREG_PATTERN_ORDER) ) {
+			if ( @preg_match_all('/<(.+)>/mU', $ListUnsubscribe, $items, PREG_PATTERN_ORDER) ) {
                                 foreach ( $items[1] as $uri ) {
                                         $this->unsubscribe_img .= '<a class="easy_unsubscribe_link tooltip-right" data-tooltip="' . $this->gettext('click_to_unsubscribe') . '" href="'. htmlentities($uri) .'" target="_blank" onclick="return confirm(\'' . $this->gettext('confirm') . '\');"><img src="plugins/easy_unsubscribe/icon.png" alt="' . $this->gettext('unsubscribe') . '" /></a>';
                                 }
