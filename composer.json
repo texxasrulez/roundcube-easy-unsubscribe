@@ -1,0 +1,18 @@
+{
+    "name": "texxasrulez/easy_unsubscribe",
+    "type": "roundcube-plugin",
+    "description": "Displays a small icon after the subject line when viewing an email, so you can very quickly unsubscribe.",
+    "license": "GPL-3.0+",
+	"version": "2.7",
+    "keywords": ["unsubscribe","subscription", "newsletter", "mailer"],
+    "homepage": "https://github.com/texxasrulez/roundcube-easy-unsubscribe",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}
