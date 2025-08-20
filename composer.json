@@ -1,9 +1,13 @@
 {
-    "name": "texxasrulez/roundcube-easy_unsubscribe",
+    "name": "texxasrulez/easy_unsubscribe",
     "type": "roundcube-plugin",
     "description": "Displays a small icon after the subject line when viewing an email, so you can very quickly unsubscribe.",
-    "license": "GPL-3.0+",
-	"version": "2.8",
+  "support": {
+    "issues": "https://github.com/texxasrulez/easy_unsubscribe/issues",
+    "source": "https://github.com/texxasrulez/easy_unsubscribe"
+  },
+  "license": "GPL-3.0",
+    "version": "2.8",
 	"authors": [
         {
             "name": "Gene Hawkins",
@@ -12,7 +16,6 @@
         }
     ], 
     "keywords": ["unsubscribe","subscription", "newsletter", "mailer"],
-    "homepage": "https://github.com/texxasrulez/roundcube-easy-unsubscribe",
     "repositories": [
         {
             "type": "composer",
